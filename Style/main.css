@@ -367,7 +367,7 @@ footer .footer_link ul {
   row-gap: 20px;
   text-align: center;
 }
-footer .footer_link ul li {
+footer .footer_link ul li > a {
   color: #4c545c;
   text-align: center;
   font-family: " Bai Jamjuree";
