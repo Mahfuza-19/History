@@ -1,0 +1,731 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button {
+  border: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+header {
+  padding: 0 0 160px 0;
+}
+header nav {
+  background-image: url(../Imags/photo_2023-10-17_01-58-05.jpg);
+  background-size: cover;
+  padding: 123px 0 0 0;
+}
+header .header_img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 64px;
+}
+header .header_img img {
+  width: 125px;
+  height: 125px;
+  flex-shrink: 0;
+}
+header h1 {
+  color: #4c545c;
+  text-align: center;
+  font-family: " Bai Jamjuree SemiBold";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.522px;
+  margin-bottom: 16px;
+}
+header p {
+  color: #9eabb2;
+  text-align: center;
+  font-family: "Bai Jamjuree";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  letter-spacing: 0.12px;
+  margin-bottom: 48px;
+}
+header .hero_btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  row-gap: 24px;
+}
+header .hero_btns button:nth-child(1) {
+  color: #fff;
+  text-align: center;
+  font-family: " Bai Jamjuree SemiBold";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px; /* 166.667% */
+  letter-spacing: 0.5px;
+  border-radius: 28px;
+  background: #26bba4;
+  box-shadow: 0px 10px 20px 0px rgba(137, 229, 199, 0.5), 0px -3px 0px 0px rgba(0, 0, 0, 0.15) inset;
+  padding: 13px 54px;
+}
+header .hero_btns button:nth-child(2) {
+  color: #fff;
+  text-align: center;
+  font-family: " Bai Jamjuree SemiBold";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px; /* 166.667% */
+  letter-spacing: 0.5px;
+  border-radius: 28px;
+  border-radius: 28px;
+  background: #6174ff;
+  box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.1), 0px -3px 0px 0px rgba(0, 0, 0, 0.15) inset;
+  padding: 13px 54px;
+}
+
+main #Keep {
+  margin-bottom: 186px;
+}
+main #Keep h2 {
+  color: #4c545c;
+  text-align: center;
+  font-family: "Bai Jamjuree SemiBold";
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.457px;
+  margin-bottom: 16px;
+}
+main #Keep p {
+  color: #9eabb2;
+  text-align: center;
+  font-family: " Bai Jamjuree";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  letter-spacing: 0.12px;
+  margin-bottom: 64px;
+}
+main #Keep .Keep_Card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  row-gap: 56px;
+}
+main #Keep .Keep_Card .K_Card-img img {
+  width: 100%;
+  margin: 0 auto;
+}
+main #Keep .Keep_Card .K_Card-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  row-gap: 48px;
+}
+main #Keep .Keep_Card .K_Card-text .Card_text {
+  text-align: center;
+}
+main #Keep .Keep_Card .K_Card-text .Card_text h3 {
+  color: #4c545c;
+  text-align: center;
+  font-family: " Bai Jamjuree SemiBold";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.391px;
+  margin-bottom: 10px;
+}
+main #Keep .Keep_Card .K_Card-text .Card_text p {
+  color: #9eabb2;
+  text-align: center;
+  font-family: "Bai Jamjuree";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  letter-spacing: 0.12px;
+  margin-bottom: 0;
+}
+main #Assecc {
+  margin-bottom: 130px;
+}
+main #Assecc h2 {
+  color: #4c545c;
+  text-align: center;
+  font-family: "Bai Jamjuree SemiBold";
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.457px;
+  margin-bottom: 16px;
+}
+main #Assecc p {
+  color: #9eabb2;
+  text-align: center;
+  font-family: " Bai Jamjuree";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  letter-spacing: 0.12px;
+  margin-bottom: 65px;
+}
+main #Assecc img {
+  max-width: 100%;
+}
+main #Super {
+  margin-bottom: 131px;
+}
+main #Super h2 {
+  color: #4c545c;
+  text-align: center;
+  font-family: " Bai Jamjuree SemiBold";
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.457px;
+  margin-bottom: 11px;
+}
+main #Super p {
+  color: #9eabb2;
+  text-align: center;
+  font-family: "Bai Jamjuree";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  letter-spacing: 0.12px;
+  margin-bottom: 90px;
+}
+main #Super .Super_boxes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  row-gap: 56px;
+}
+main #Super .Super_boxes .S_box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+main #Super .Super_boxes .S_box img {
+  width: 44px;
+  height: 40px;
+  flex-shrink: 0;
+  margin-bottom: 40px;
+}
+main #Super .Super_boxes .S_box h3 {
+  color: #4c545c;
+  text-align: center;
+  font-family: "Bai Jamjuree SemiBold";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.391px;
+  margin-bottom: 18px;
+}
+main #Super .Super_boxes .S_box p {
+  color: #9eabb2;
+  text-align: center;
+  font-family: "Bai Jamjuree";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  letter-spacing: 0.12px;
+  margin: 0;
+}
+main #Logo {
+  margin-bottom: 170px;
+}
+main #Logo .logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  row-gap: 57px;
+}
+main #Logo .logo img {
+  max-width: 100%;
+  height: 41px;
+}
+main #Matn {
+  margin-bottom: 170px;
+}
+main #Matn h2 {
+  color: #4c545c;
+  text-align: center;
+  font-family: "Bai Jamjuree SemiBold";
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.457px;
+  margin-bottom: 16px;
+}
+main #Matn p {
+  color: #9eabb2;
+  text-align: center;
+  font-family: " Bai Jamjuree";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  letter-spacing: 0.12px;
+  margin-bottom: 46px;
+}
+main #Matn .hero_btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  row-gap: 24px;
+}
+main #Matn .hero_btns button:nth-child(1) {
+  color: #fff;
+  text-align: center;
+  font-family: " Bai Jamjuree SemiBold";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px; /* 166.667% */
+  letter-spacing: 0.5px;
+  border-radius: 28px;
+  background: #26bba4;
+  box-shadow: 0px 10px 20px 0px rgba(137, 229, 199, 0.5), 0px -3px 0px 0px rgba(0, 0, 0, 0.15) inset;
+  padding: 13px 54px;
+}
+main #Matn .hero_btns button:nth-child(2) {
+  color: #fff;
+  text-align: center;
+  font-family: " Bai Jamjuree SemiBold";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px; /* 166.667% */
+  letter-spacing: 0.5px;
+  border-radius: 28px;
+  border-radius: 28px;
+  background: #6174ff;
+  box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.1), 0px -3px 0px 0px rgba(0, 0, 0, 0.15) inset;
+  padding: 13px 54px;
+}
+
+footer {
+  background: rgba(158, 171, 178, 0.1002);
+  padding: 52px 0 51px 0;
+}
+footer .footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+footer .footer_logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+footer .footer_logo img {
+  width: 55px;
+  height: 55px;
+  flex-shrink: 0;
+}
+footer .footer_link {
+  margin-bottom: 50px;
+}
+footer .footer_link ul {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  row-gap: 20px;
+  text-align: center;
+}
+footer .footer_link ul li {
+  color: #4c545c;
+  text-align: center;
+  font-family: " Bai Jamjuree";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+  letter-spacing: 0.135px;
+}
+footer .footer_icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+footer .footer_icon a i {
+  font-size: 24px;
+}
+
+@media (min-width: 900px) {
+  .container {
+    max-width: 90%;
+  }
+  header {
+    padding: 0 0 150px 0;
+  }
+  header nav {
+    padding: 128px 0 0 0;
+  }
+  header .header_img {
+    margin-bottom: 56px;
+  }
+  header h1 {
+    font-size: 46px;
+    letter-spacing: -0.75px;
+  }
+  header p {
+    font-size: 20px;
+    letter-spacing: 0.15px;
+  }
+  header .hero_btns {
+    flex-direction: row;
+    column-gap: 16px;
+  }
+  header .hero_btns button:nth-child(1) {
+    padding: 13px 42px;
+  }
+  header .hero_btns button:nth-child(2) {
+    padding: 13px 42px;
+  }
+  main #Keep {
+    margin-bottom: 186px;
+  }
+  main #Keep h2 {
+    font-size: 36px;
+    letter-spacing: -0.587px;
+    margin-bottom: 19px;
+  }
+  main #Keep p {
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.135px;
+    margin-bottom: 80px;
+  }
+  main #Keep .Keep_Card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    column-gap: 90px;
+  }
+  main #Keep .Keep_Card .K_Card-img {
+    position: relative;
+    left: -100px;
+  }
+  main #Keep .Keep_Card .K_Card-img img {
+    width: 130%;
+    margin: 0;
+  }
+  main #Keep .Keep_Card .K_Card-text {
+    row-gap: 56px;
+  }
+  main #Keep .Keep_Card .K_Card-text .Card_text {
+    text-align: start;
+  }
+  main #Keep .Keep_Card .K_Card-text .Card_text h3 {
+    text-align: start;
+    margin-bottom: 10px;
+  }
+  main #Keep .Keep_Card .K_Card-text .Card_text p {
+    text-align: start;
+    line-height: 30px;
+  }
+  main #Assecc {
+    margin-bottom: 163px;
+  }
+  main #Assecc h2 {
+    font-size: 36px;
+    letter-spacing: -0.587px;
+    margin-bottom: 19px;
+  }
+  main #Assecc p {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.135px;
+    margin-bottom: 112px;
+  }
+  main #Super {
+    margin-bottom: 162px;
+  }
+  main #Super h2 {
+    font-size: 36px;
+    letter-spacing: -0.587px;
+    margin-bottom: 19px;
+  }
+  main #Super p {
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.135px;
+    margin-bottom: 76px;
+  }
+  main #Super .Super_boxes {
+    flex-direction: row;
+    column-gap: 30px;
+  }
+  main #Super .Super_boxes .S_box h3 {
+    margin-bottom: 16px;
+  }
+  main #Super .Super_boxes .S_box p {
+    line-height: 30px;
+  }
+  main #Logo {
+    margin-bottom: 170px;
+  }
+  main #Logo .logo {
+    flex-direction: row;
+    column-gap: 30px;
+  }
+  main #Logo .logo img {
+    max-width: 165px;
+    height: 49px;
+  }
+  main #Matn {
+    margin-bottom: 150px;
+  }
+  main #Matn h2 {
+    font-size: 36px;
+    letter-spacing: -0.587px;
+    margin-bottom: 19px;
+  }
+  main #Matn p {
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.135px;
+    margin-bottom: 48px;
+  }
+  main #Matn .hero_btns {
+    flex-direction: row;
+    column-gap: 16px;
+  }
+  main #Matn .hero_btns button:nth-child(1) {
+    padding: 13px 42px;
+  }
+  main #Matn .hero_btns button:nth-child(2) {
+    padding: 13px 42px;
+  }
+  footer {
+    padding: 30px 0 39px 0;
+  }
+  footer .footer {
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  footer .footer_logo {
+    margin-bottom: 0;
+  }
+  footer .footer_link {
+    margin-bottom: 0;
+  }
+  footer .footer_link ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 40px;
+    text-align: start;
+  }
+  footer .footer_link ul li {
+    text-align: start;
+  }
+}
+@media (min-width: 1138px) {
+  .container {
+    max-width: 1024px;
+  }
+  header {
+    padding: 0 0 150px 0;
+  }
+  header nav {
+    padding: 128px 0 0 0;
+  }
+  header .header_img {
+    margin-bottom: 56px;
+  }
+  header h1 {
+    font-size: 46px;
+    letter-spacing: -0.75px;
+  }
+  header p {
+    font-size: 20px;
+    letter-spacing: 0.15px;
+  }
+  header .hero_btns {
+    flex-direction: row;
+    column-gap: 16px;
+  }
+  header .hero_btns button:nth-child(1) {
+    padding: 13px 42px;
+  }
+  header .hero_btns button:nth-child(2) {
+    padding: 13px 42px;
+  }
+  main #Keep {
+    margin-bottom: 186px;
+  }
+  main #Keep h2 {
+    font-size: 36px;
+    letter-spacing: -0.587px;
+    margin-bottom: 19px;
+  }
+  main #Keep p {
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.135px;
+    margin-bottom: 80px;
+  }
+  main #Keep .Keep_Card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    column-gap: 110px;
+  }
+  main #Keep .Keep_Card .K_Card-img {
+    position: relative;
+    left: -500px;
+  }
+  main #Keep .Keep_Card .K_Card-img img {
+    width: 180%;
+    margin: 0;
+  }
+  main #Keep .Keep_Card .K_Card-text {
+    row-gap: 56px;
+  }
+  main #Keep .Keep_Card .K_Card-text .Card_text {
+    text-align: start;
+  }
+  main #Keep .Keep_Card .K_Card-text .Card_text h3 {
+    text-align: start;
+    margin-bottom: 10px;
+  }
+  main #Keep .Keep_Card .K_Card-text .Card_text p {
+    text-align: start;
+    line-height: 30px;
+  }
+  main #Assecc {
+    margin-bottom: 163px;
+  }
+  main #Assecc h2 {
+    font-size: 36px;
+    letter-spacing: -0.587px;
+    margin-bottom: 19px;
+  }
+  main #Assecc p {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.135px;
+    margin-bottom: 112px;
+  }
+  main #Super {
+    margin-bottom: 162px;
+  }
+  main #Super h2 {
+    font-size: 36px;
+    letter-spacing: -0.587px;
+    margin-bottom: 19px;
+  }
+  main #Super p {
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.135px;
+    margin-bottom: 76px;
+  }
+  main #Super .Super_boxes {
+    flex-direction: row;
+    column-gap: 30px;
+  }
+  main #Super .Super_boxes .S_box h3 {
+    margin-bottom: 16px;
+  }
+  main #Super .Super_boxes .S_box p {
+    line-height: 30px;
+  }
+  main #Logo {
+    margin-bottom: 170px;
+  }
+  main #Logo .logo {
+    flex-direction: row;
+    column-gap: 50px;
+  }
+  main #Logo .logo img {
+    max-width: 165px;
+    height: 49px;
+  }
+  main #Matn {
+    margin-bottom: 150px;
+  }
+  main #Matn h2 {
+    font-size: 36px;
+    letter-spacing: -0.587px;
+    margin-bottom: 19px;
+  }
+  main #Matn p {
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.135px;
+    margin-bottom: 48px;
+  }
+  main #Matn .hero_btns {
+    flex-direction: row;
+    column-gap: 16px;
+  }
+  main #Matn .hero_btns button:nth-child(1) {
+    padding: 13px 42px;
+  }
+  main #Matn .hero_btns button:nth-child(2) {
+    padding: 13px 42px;
+  }
+  footer {
+    padding: 30px 0 39px 0;
+  }
+  footer .footer {
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  footer .footer_logo {
+    margin-bottom: 0;
+  }
+  footer .footer_link {
+    margin-bottom: 0;
+  }
+  footer .footer_link ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 40px;
+    text-align: start;
+  }
+  footer .footer_link ul li {
+    text-align: start;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

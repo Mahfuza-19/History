@@ -1,0 +1,747 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+button {
+  border: none;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+.container {
+  max-width: 90%;
+  margin: 0 auto;
+}
+header {
+  padding: 0 0 160px 0;
+  nav {
+    background-image: url(../Imags/photo_2023-10-17_01-58-05.jpg);
+    background-size: cover;
+    padding: 123px 0 0 0;
+  }
+  .header_img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 64px;
+
+    img {
+      width: 125px;
+      height: 125px;
+      flex-shrink: 0;
+    }
+  }
+  h1 {
+    color: #4c545c;
+    text-align: center;
+    font-family: " Bai Jamjuree SemiBold";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.522px;
+    margin-bottom: 16px;
+  }
+  p {
+    color: #9eabb2;
+    text-align: center;
+    font-family: "Bai Jamjuree";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    letter-spacing: 0.12px;
+    margin-bottom: 48px;
+  }
+  .hero_btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 24px;
+    button:nth-child(1) {
+      color: #fff;
+      text-align: center;
+      font-family: " Bai Jamjuree SemiBold";
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 30px; /* 166.667% */
+      letter-spacing: 0.5px;
+      border-radius: 28px;
+      background: #26bba4;
+      box-shadow: 0px 10px 20px 0px rgba(137, 229, 199, 0.5),
+        0px -3px 0px 0px rgba(0, 0, 0, 0.15) inset;
+      padding: 13px 54px;
+    }
+    button:nth-child(2) {
+      color: #fff;
+      text-align: center;
+      font-family: " Bai Jamjuree SemiBold";
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 30px; /* 166.667% */
+      letter-spacing: 0.5px;
+      border-radius: 28px;
+      border-radius: 28px;
+      background: #6174ff;
+      box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.1),
+        0px -3px 0px 0px rgba(0, 0, 0, 0.15) inset;
+      padding: 13px 54px;
+    }
+  }
+}
+main {
+  #Keep {
+    margin-bottom: 186px;
+    h2 {
+      color: #4c545c;
+      text-align: center;
+      font-family: "Bai Jamjuree SemiBold";
+      font-size: 28px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      letter-spacing: -0.457px;
+      margin-bottom: 16px;
+    }
+    p {
+      color: #9eabb2;
+      text-align: center;
+      font-family: " Bai Jamjuree";
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 26px; /* 162.5% */
+      letter-spacing: 0.12px;
+      margin-bottom: 64px;
+    }
+    .Keep_Card {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      row-gap: 56px;
+      .K_Card-img {
+        img {
+          width: 100%;
+          margin: 0 auto;
+        }
+      }
+      .K_Card-text {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        row-gap: 48px;
+        .Card_text {
+          text-align: center;
+
+          h3 {
+            color: #4c545c;
+            text-align: center;
+            font-family: " Bai Jamjuree SemiBold";
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            letter-spacing: -0.391px;
+            margin-bottom: 10px;
+          }
+          p {
+            color: #9eabb2;
+            text-align: center;
+            font-family: "Bai Jamjuree";
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 26px; /* 162.5% */
+            letter-spacing: 0.12px;
+            margin-bottom: 0;
+          }
+        }
+      }
+    }
+  }
+  #Assecc {
+    margin-bottom: 130px;
+    h2 {
+      color: #4c545c;
+      text-align: center;
+      font-family: "Bai Jamjuree SemiBold";
+      font-size: 28px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      letter-spacing: -0.457px;
+      margin-bottom: 16px;
+    }
+    p {
+      color: #9eabb2;
+      text-align: center;
+      font-family: " Bai Jamjuree";
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 26px; /* 162.5% */
+      letter-spacing: 0.12px;
+      margin-bottom: 65px;
+    }
+    img {
+      max-width: 100%;
+    }
+  }
+  #Super {
+    margin-bottom: 131px;
+    h2 {
+      color: #4c545c;
+      text-align: center;
+      font-family: " Bai Jamjuree SemiBold";
+      font-size: 28px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      letter-spacing: -0.457px;
+      margin-bottom: 11px;
+    }
+    p {
+      color: #9eabb2;
+      text-align: center;
+      font-family: "Bai Jamjuree";
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 26px; /* 162.5% */
+      letter-spacing: 0.12px;
+      margin-bottom: 90px;
+    }
+    .Super_boxes {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      row-gap: 56px;
+      .S_box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        img {
+          width: 44px;
+          height: 40px;
+          flex-shrink: 0;
+          margin-bottom: 40px;
+        }
+        h3 {
+          color: #4c545c;
+          text-align: center;
+          font-family: "Bai Jamjuree SemiBold";
+          font-size: 24px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: normal;
+          letter-spacing: -0.391px;
+          margin-bottom: 18px;
+        }
+        p {
+          color: #9eabb2;
+          text-align: center;
+          font-family: "Bai Jamjuree";
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 26px; /* 162.5% */
+          letter-spacing: 0.12px;
+          margin: 0;
+        }
+      }
+    }
+  }
+  #Logo {
+    margin-bottom: 170px;
+    .logo {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      row-gap: 57px;
+      img {
+        max-width: 100%;
+        height: 41px;
+      }
+    }
+  }
+  #Matn {
+    margin-bottom: 170px;
+    h2 {
+      color: #4c545c;
+      text-align: center;
+      font-family: "Bai Jamjuree SemiBold";
+      font-size: 28px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      letter-spacing: -0.457px;
+      margin-bottom: 16px;
+    }
+    p {
+      color: #9eabb2;
+      text-align: center;
+      font-family: " Bai Jamjuree";
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 26px; /* 162.5% */
+      letter-spacing: 0.12px;
+      margin-bottom: 46px;
+    }
+    .hero_btns {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      row-gap: 24px;
+      button:nth-child(1) {
+        color: #fff;
+        text-align: center;
+        font-family: " Bai Jamjuree SemiBold";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 30px; /* 166.667% */
+        letter-spacing: 0.5px;
+        border-radius: 28px;
+        background: #26bba4;
+        box-shadow: 0px 10px 20px 0px rgba(137, 229, 199, 0.5),
+          0px -3px 0px 0px rgba(0, 0, 0, 0.15) inset;
+        padding: 13px 54px;
+      }
+      button:nth-child(2) {
+        color: #fff;
+        text-align: center;
+        font-family: " Bai Jamjuree SemiBold";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 30px; /* 166.667% */
+        letter-spacing: 0.5px;
+        border-radius: 28px;
+        border-radius: 28px;
+        background: #6174ff;
+        box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.1),
+          0px -3px 0px 0px rgba(0, 0, 0, 0.15) inset;
+        padding: 13px 54px;
+      }
+    }
+  }
+}
+footer {
+  background: rgba(158, 171, 178, 0.1002);
+
+  padding: 52px 0 51px 0;
+  .footer{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;  
+  }
+  .footer_logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img {
+      width: 55px;
+      height: 55px;
+      flex-shrink: 0;
+    }
+    margin-bottom: 40px;
+  }
+  .footer_link {
+    margin-bottom: 50px;
+    ul {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      row-gap: 20px;
+      text-align: center;
+      li {
+        color: #4c545c;
+        text-align: center;
+        font-family: " Bai Jamjuree";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px; /* 166.667% */
+        letter-spacing: 0.135px;
+      }
+    }
+  }
+  .footer_icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    a {
+      i {
+        font-size: 24px;
+      }
+    }
+  }
+}
+@media (min-width: 900px) {
+  .container {
+    max-width: 90%;
+  }
+  header {
+    padding: 0 0 150px 0;
+    nav {
+      padding: 128px 0 0 0;
+    }
+    .header_img {
+      margin-bottom: 56px;
+    }
+    h1 {
+      font-size: 46px;
+      letter-spacing: -0.75px;
+    }
+    p {
+      font-size: 20px;
+      letter-spacing: 0.15px;
+    }
+    .hero_btns {
+      flex-direction: row;
+      column-gap: 16px;
+      button:nth-child(1) {
+        padding: 13px 42px;
+      }
+      button:nth-child(2) {
+        padding: 13px 42px;
+      }
+    }
+  }
+  main {
+    #Keep {
+      margin-bottom: 186px;
+      h2 {
+        font-size: 36px;
+        letter-spacing: -0.587px;
+        margin-bottom: 19px;
+      }
+      p {
+        font-size: 18px;
+        line-height: 30px;
+        letter-spacing: 0.135px;
+        margin-bottom: 80px;
+      }
+      .Keep_Card {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        column-gap: 90px;
+        .K_Card-img {
+            position: relative;    
+            left: -100px;
+          img {
+            width: 130%;
+            margin: 0 ;
+          }
+        }
+        .K_Card-text {
+          row-gap: 56px;
+          .Card_text {
+            text-align: start;
+
+            h3 {
+              text-align: start;
+              margin-bottom: 10px;
+            }
+            p {
+              text-align: start;
+              line-height: 30px;
+            }
+          }
+        }
+      }
+    }
+    #Assecc {
+      margin-bottom: 163px;
+      h2 {
+        font-size: 36px;
+        letter-spacing: -0.587px;
+        margin-bottom: 19px;
+      }
+      p {
+        font-size: 20px;
+        line-height: 30px; 
+        letter-spacing: 0.135px;
+        margin-bottom: 112px;
+      }
+    }
+    #Super {
+      margin-bottom: 162px;
+      h2 {
+        font-size: 36px;
+        letter-spacing: -0.587px;
+        margin-bottom: 19px;
+      }
+      p {
+        font-size: 18px;
+        line-height: 30px; 
+        letter-spacing: 0.135px;
+        margin-bottom: 76px;
+      }
+      .Super_boxes {
+        flex-direction: row;
+        column-gap: 30px;
+        .S_box {
+          h3 {
+            margin-bottom: 16px;
+          }
+          p {
+            line-height: 30px;
+          }
+        }
+      }
+    }
+    #Logo {
+      margin-bottom: 170px;
+      .logo {
+        flex-direction: row;
+        column-gap: 30px;
+        img {
+          max-width: 165px;
+          height: 49px;
+        }
+      }
+    }
+    #Matn {
+      margin-bottom: 150px;
+      h2 {
+        font-size: 36px;
+        letter-spacing: -0.587px;
+        margin-bottom: 19px;
+      }
+      p {
+        font-size: 18px;
+        line-height: 30px; 
+        letter-spacing: 0.135px;
+        margin-bottom: 48px;
+      }
+      .hero_btns {
+        flex-direction: row;
+        column-gap: 16px;
+        button:nth-child(1) {
+          padding: 13px 42px;
+        }
+        button:nth-child(2) {
+          padding: 13px 42px;
+        }
+      }
+    }
+  }
+  footer {
+    padding:30px 0 39px 0;
+    .footer{
+      justify-content: space-between;
+      flex-direction: row;  
+      }
+    .footer_logo {
+      margin-bottom: 0;
+    }
+    .footer_link {
+      margin-bottom: 0;
+      ul {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 40px;
+        text-align: start;
+        li {
+          text-align: start;
+       
+        }
+      }
+    }
+  }
+}
+@media (min-width: 1138px) {
+    .container {
+      max-width: 1024px;
+    }
+    header {
+      padding: 0 0 150px 0;
+      nav {
+        padding: 128px 0 0 0;
+      }
+      .header_img {
+        margin-bottom: 56px;
+      }
+      h1 {
+        font-size: 46px;
+        letter-spacing: -0.75px;
+      }
+      p {
+        font-size: 20px;
+        letter-spacing: 0.15px;
+      }
+      .hero_btns {
+        flex-direction: row;
+        column-gap: 16px;
+        button:nth-child(1) {
+          padding: 13px 42px;
+        }
+        button:nth-child(2) {
+          padding: 13px 42px;
+        }
+      }
+    }
+    main {
+      #Keep {
+        margin-bottom: 186px;
+        h2 {
+          font-size: 36px;
+          letter-spacing: -0.587px;
+          margin-bottom: 19px;
+        }
+        p {
+          font-size: 18px;
+          line-height: 30px;
+          letter-spacing: 0.135px;
+          margin-bottom: 80px;
+        }
+        .Keep_Card {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: row;
+          column-gap: 110px;
+          .K_Card-img {
+              position: relative;    
+              left: -500px;
+            img {
+              width: 180%;
+              margin: 0 ;
+            }
+          }
+          .K_Card-text {
+            row-gap: 56px;
+            .Card_text {
+              text-align: start;
+  
+              h3 {
+                text-align: start;
+                margin-bottom: 10px;
+              }
+              p {
+                text-align: start;
+                line-height: 30px;
+              }
+            }
+          }
+        }
+      }
+      #Assecc {
+        margin-bottom: 163px;
+        h2 {
+          font-size: 36px;
+          letter-spacing: -0.587px;
+          margin-bottom: 19px;
+        }
+        p {
+          font-size: 20px;
+          line-height: 30px; 
+          letter-spacing: 0.135px;
+          margin-bottom: 112px;
+        }
+      }
+      #Super {
+        margin-bottom: 162px;
+        h2 {
+          font-size: 36px;
+          letter-spacing: -0.587px;
+          margin-bottom: 19px;
+        }
+        p {
+          font-size: 18px;
+          line-height: 30px; 
+          letter-spacing: 0.135px;
+          margin-bottom: 76px;
+        }
+        .Super_boxes {
+          flex-direction: row;
+          column-gap: 30px;
+          .S_box {
+            h3 {
+              margin-bottom: 16px;
+            }
+            p {
+              line-height: 30px;
+            }
+          }
+        }
+      }
+      #Logo {
+        margin-bottom: 170px;
+        .logo {
+          flex-direction: row;
+          column-gap: 50px;
+          img {
+            max-width: 165px;
+            height: 49px;
+          }
+        }
+      }
+      #Matn {
+        margin-bottom: 150px;
+        h2 {
+          font-size: 36px;
+          letter-spacing: -0.587px;
+          margin-bottom: 19px;
+        }
+        p {
+          font-size: 18px;
+          line-height: 30px; 
+          letter-spacing: 0.135px;
+          margin-bottom: 48px;
+        }
+        .hero_btns {
+          flex-direction: row;
+          column-gap: 16px;
+          button:nth-child(1) {
+            padding: 13px 42px;
+          }
+          button:nth-child(2) {
+            padding: 13px 42px;
+          }
+        }
+      }
+    }
+    footer {
+      padding:30px 0 39px 0;
+      .footer{
+        justify-content: space-between;
+        flex-direction: row;  
+        }
+      .footer_logo {
+        margin-bottom: 0;
+      }
+      .footer_link {
+        margin-bottom: 0;
+        ul {
+          display: grid;
+          grid-template-columns: repeat(3, 1fr);
+          column-gap: 40px;
+          text-align: start;
+          li {
+            text-align: start;
+         
+          }
+        }
+      }
+    }
+  }
