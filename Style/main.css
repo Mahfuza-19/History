@@ -385,6 +385,7 @@ footer .footer_icon {
 }
 footer .footer_icon a i {
   font-size: 24px;
+  color: #4c545c;
 }
 
 @media (min-width: 900px) {
