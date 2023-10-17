@@ -620,12 +620,12 @@ footer {
           align-items: center;
           justify-content: center;
           flex-direction: row;
-          column-gap: 110px;
+          column-gap: 115px;
           .K_Card-img {
               position: relative;    
-              left: -500px;
+              left: -248px;
             img {
-              width: 180%;
+              width: 140%;
               margin: 0 ;
             }
           }
@@ -690,7 +690,7 @@ footer {
         margin-bottom: 170px;
         .logo {
           flex-direction: row;
-          column-gap: 50px;
+          column-gap: 90px;
           img {
             max-width: 165px;
             height: 49px;
@@ -705,6 +705,8 @@ footer {
           margin-bottom: 19px;
         }
         p {
+          max-width: 700px;
+          margin: 0 auto;
           font-size: 18px;
           line-height: 30px; 
           letter-spacing: 0.135px;
@@ -733,6 +735,7 @@ footer {
       }
       .footer_link {
         margin-bottom: 0;
+    margin-right: 200px;
         ul {
           display: grid;
           grid-template-columns: repeat(3, 1fr);

@@ -608,14 +608,14 @@ footer .footer_icon a i {
     align-items: center;
     justify-content: center;
     flex-direction: row;
-    column-gap: 110px;
+    column-gap: 115px;
   }
   main #Keep .Keep_Card .K_Card-img {
     position: relative;
-    left: -500px;
+    left: -248px;
   }
   main #Keep .Keep_Card .K_Card-img img {
-    width: 180%;
+    width: 140%;
     margin: 0;
   }
   main #Keep .Keep_Card .K_Card-text {
@@ -675,7 +675,7 @@ footer .footer_icon a i {
   }
   main #Logo .logo {
     flex-direction: row;
-    column-gap: 50px;
+    column-gap: 90px;
   }
   main #Logo .logo img {
     max-width: 165px;
@@ -690,6 +690,8 @@ footer .footer_icon a i {
     margin-bottom: 19px;
   }
   main #Matn p {
+    max-width: 700px;
+    margin: 0 auto;
     font-size: 18px;
     line-height: 30px;
     letter-spacing: 0.135px;
@@ -717,6 +719,7 @@ footer .footer_icon a i {
   }
   footer .footer_link {
     margin-bottom: 0;
+    margin-right: 200px;
   }
   footer .footer_link ul {
     display: grid;
