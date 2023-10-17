@@ -131,7 +131,10 @@ main #Keep .Keep_Card {
   flex-direction: column;
   row-gap: 56px;
 }
-main #Keep .Keep_Card .K_Card-img img {
+main #Keep .Keep_Card .K_Card-img-1 {
+  display: none;
+}
+main #Keep .Keep_Card .K_Card-img-2 img {
   width: 100%;
   margin: 0 auto;
 }
@@ -367,10 +370,10 @@ footer .footer_link ul {
   row-gap: 20px;
   text-align: center;
 }
-footer .footer_link ul li > a {
+footer .footer_link ul li a {
   color: #4c545c;
   text-align: center;
-  font-family: " Bai Jamjuree";
+  font-family: " Bai Jamjuree", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -440,13 +443,17 @@ footer .footer_icon a i {
     flex-direction: row;
     column-gap: 90px;
   }
-  main #Keep .Keep_Card .K_Card-img {
+  main #Keep .Keep_Card .K_Card-img-1 {
+    display: block;
     position: relative;
     left: -100px;
   }
-  main #Keep .Keep_Card .K_Card-img img {
+  main #Keep .Keep_Card .K_Card-img-1 img {
     width: 130%;
     margin: 0;
+  }
+  main #Keep .Keep_Card .K_Card-img-2 {
+    display: none;
   }
   main #Keep .Keep_Card .K_Card-text {
     row-gap: 56px;
@@ -492,6 +499,7 @@ footer .footer_icon a i {
   }
   main #Super .Super_boxes {
     flex-direction: row;
+    align-items: start;
     column-gap: 30px;
   }
   main #Super .Super_boxes .S_box h3 {
@@ -610,13 +618,17 @@ footer .footer_icon a i {
     flex-direction: row;
     column-gap: 115px;
   }
-  main #Keep .Keep_Card .K_Card-img {
+  main #Keep .Keep_Card .K_Card-img-1 {
+    display: block;
     position: relative;
     left: -248px;
   }
-  main #Keep .Keep_Card .K_Card-img img {
+  main #Keep .Keep_Card .K_Card-img-1 img {
     width: 140%;
     margin: 0;
+  }
+  main #Keep .Keep_Card .K_Card-img-2 {
+    display: none;
   }
   main #Keep .Keep_Card .K_Card-text {
     row-gap: 56px;
@@ -661,6 +673,7 @@ footer .footer_icon a i {
     margin-bottom: 76px;
   }
   main #Super .Super_boxes {
+    align-items: start;
     flex-direction: row;
     column-gap: 30px;
   }

@@ -127,7 +127,10 @@ main {
       justify-content: center;
       flex-direction: column;
       row-gap: 56px;
-      .K_Card-img {
+      .K_Card-img-1 {
+        display: none;
+      }
+      .K_Card-img-2{
         img {
           width: 100%;
           margin: 0 auto;
@@ -369,10 +372,10 @@ footer {
       grid-template-columns: repeat(1, 1fr);
       row-gap: 20px;
       text-align: center;
-      li>a {
+      li a {
         color: #4c545c;
         text-align: center;
-        font-family: " Bai Jamjuree";
+        font-family: " Bai Jamjuree", sans-serif;
         font-size: 18px;
         font-style: normal;
         font-weight: 400;
@@ -445,13 +448,17 @@ footer {
         justify-content: center;
         flex-direction: row;
         column-gap: 90px;
-        .K_Card-img {
-            position: relative;    
-            left: -100px;
+        .K_Card-img-1 {
+         display: block;
+         position: relative;    
+         left: -100px;
           img {
             width: 130%;
             margin: 0 ;
           }
+        }
+        .K_Card-img-2{
+          display: none;
         }
         .K_Card-text {
           row-gap: 56px;
@@ -499,6 +506,7 @@ footer {
       }
       .Super_boxes {
         flex-direction: row;
+        align-items: start;
         column-gap: 30px;
         .S_box {
           h3 {
@@ -621,14 +629,19 @@ footer {
           justify-content: center;
           flex-direction: row;
           column-gap: 115px;
-          .K_Card-img {
-              position: relative;    
-              left: -248px;
-            img {
-              width: 140%;
-              margin: 0 ;
-            }
+          .K_Card-img-1 {
+            display: block;
+            position: relative;    
+            left: -248px;
+          img {
+            width: 140%;
+            margin: 0 ;
           }
+        }
+           .K_Card-img-2{
+             display: none;
+           }
+     
           .K_Card-text {
             row-gap: 56px;
             .Card_text {
@@ -674,6 +687,7 @@ footer {
           margin-bottom: 76px;
         }
         .Super_boxes {
+          align-items: start;
           flex-direction: row;
           column-gap: 30px;
           .S_box {
